@@ -24,7 +24,7 @@
                
            }
            #storyls li {
-               margin: 00 .2em 0;
+               margin: 0 0 .2em 0;
            }
            #storyls a{
                display: block;
@@ -38,9 +38,9 @@
                border-right: 1px solid #036;
                border-bottom: 1px solid #036;
            }
-           #storyls a :hover{
+           #storyls a:hover{
                background-color: #369;
-               color: #FFF;
+               color: #7aed71;
                border-top: 1px solid #036;
                border-left: 1px solid #036;
                border-right: 1px solid #fff;
@@ -52,50 +52,94 @@
                margin-top: 1em;
                
            }
+           
+           
            #nav ul li{
                
+               
                display: inline;
-               margin: 0;
-               padding: 0;
+               background-color: black;
+               color: white;
+               margin: .2em;
+               padding: .1em;
+               border-radius: 4px 4px 0 0;
            }
-           #email{
-               display: flex;
-               margin: auto;
-               padding: 0;
+           
+           
+           #nav li a:hover{
+               background-color: yellow;
+           }
+           
+           
+           #nav a{
+               text-decoration: none;
+           }
+           
+           }
+           
+           #email a{
+                display: block;
+                color: #FFF;
+                background-color: #036;
+                width: 9em;
+                padding: .2em .8em;
+                text-decoration: none;
+                border-radius: 4px 4px 0 0;
+               
+           }
+           #email ul{
+               text-decoration: none;
+               background-color: black;
+               
+           }
+           
+           
+.container p {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
            }
        </style>
 </head>
 <body>
   <div id="header">
-  <h1 align="center" style="font-size:30px" ><br/>African Stories</h1>
+      <h1 align="center" style="font-size:30px" ><br/>African Stories</h1>
 </div>
 <header>
   <h3><br/>August 24&ndash;26th &mdash; Nairobi</h3>
 </header>
 <section> <!--introduction part-->
-  <h2>Dedicated to the Craft of Building Websites</h2>
-    <p>Every year the brightest web designers and front-end developers descend
-        . Join us this August!</p><br/>
+  
+        <p style="font-size:7px;">Qusai Alfaki<p/><hr/><hr/>
+        
 </section>
 
-  <section>
-    
-    <p style="font-size:13px">Qusai Alfaki <br/>Chif excutive and front-end developer</p>
-  </section><hr/>
 <div id="nav">
   <nav>
-    <ul>
-      <li>Home</li>
+    <ul><li><a href="African%20Stories.HTML">Home</a></li>
        <li>About</li>
         <li>contact</li>
     </ul>
   </nav>
-    </div>
+    
+    </div><br/>
     <div id="email">
         <ul>
             <li><a href="mailto:kakuma4never@gmail.com?subject=Reacing%20Out&body=How%20are%20you">Email us</a></li>
         </ul>
     </div>
+    
+    
+    <article class="container">
+        <section>
+    <p id="centered"><br/><br/> Poetry is what in a poem makes you laugh,<br/> cry, prickle, be silent,<br/>
+        makes your toe nails twinkle,<br/> makes you want to do this or that or nothing,<br/> makes you know that you are<br/>
+        alone in the unknown world, <br/>that your bliss and suffering is forever <br/>shared and forever all your own.<br/><br/><p style="font-size:13px">Dylan Thomas</p>
+        </section>
+            </article>
     <div id="storyls">
         <ul>
         <li><a href="story1.html">The same Night</a></li>
@@ -109,6 +153,7 @@
         <li><a href="story9.html"></a></li>
         </ul>
     </div>
+    
     
 
   
