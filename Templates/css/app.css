@@ -46,3 +46,11 @@ footer {
 footer a {
     display: block;
 }
+
+.text-center {
+    background-color: red;
+}
+
+.reding {
+    background-color: yellow;
+}
