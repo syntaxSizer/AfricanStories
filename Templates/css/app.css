@@ -43,11 +43,15 @@ footer {
     background-color: #222;
     padding: 56px 0px;
     color: #FFF;
-    font-size: 3em;
+    font-size: 1.2em;
 }
 footer a {
     display: block;
 }
 .vertical li a {
-    font-size: 1em;
+    font-size: 1.5 em;
+    background-color: red;
+}
+.vertical {
+    list-style: none;
 }
