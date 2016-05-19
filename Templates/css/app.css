@@ -49,8 +49,11 @@ footer a {
     display: block;
 }
 .vertical li a {
-    font-size: 1.5 em;
-    background-color: red;
+    font-size: 1.5em;
+}
+.vertical a:hover {
+    color: #FFF;
+    background-color: #F07746;
 }
 .vertical {
     list-style: none;
